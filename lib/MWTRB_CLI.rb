@@ -36,6 +36,7 @@ module MWTRBCLI
       display_requested_word_info("Word Forms",word_obj.word_forms)
       display_requested_word_info("Definition",word_obj.definition)
       display_requested_word_info("Synonyms",word_obj.synonyms)
+      display_requested_word_info("Antonyms",word_obj.antonyms)
       display_requested_word_info("Related Words:",word_obj.related_words)
     end
 
