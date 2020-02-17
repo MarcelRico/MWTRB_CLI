@@ -3,7 +3,7 @@
 Welcome to Merriam Webster's Thesaurus CLI (MWTRB_CLI) gem! This gem has been created to allow you to search words in Merriam Webster's Thesaurus by use of their API. When searching a word, there are four different pieces of information that the CLI will display in relation to your word: Definiton, Synonyms, Antonyms, and Examples of word usage.
 
 ## Getting Started
-These instructions will 
+These instructions will show where to apply for a Thesaurus API key, as well as the process of installing and testing the MWTRB_CLI gem.
 
 ## Prerequisites
 Before using this Gem, be sure to register for a Thesaurus API key at: [dictionaryapi.com](https://dictionaryapi.com/register/index).
