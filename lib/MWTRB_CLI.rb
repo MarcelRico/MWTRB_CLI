@@ -108,7 +108,7 @@ module MWTRBCLI
           users_word = prompt_choice("Please enter the word to lookup")
           exit if users_word == "q"
           break if users_word[/\W/].nil?
-            display_error("Incorrect Format: Word cannot be blank, or have a blank space in it")
+            display_error("Incorrect Format: Word cannot be blank, or have symbols or blank spaces in it.")
             puts "Press the Enter key to continnue ...\n".red
             gets
             clear_screen
