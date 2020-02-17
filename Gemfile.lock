@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    MWTRB_CLI (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.8.1)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  MWTRB_CLI!
+  bundler (~> 2.0)
+  colorize
+  rake (~> 10.0)
+
+BUNDLED WITH
+   2.0.1
