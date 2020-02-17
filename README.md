@@ -1,43 +1,61 @@
-# MWTRBCLI
+# MWTRB_CLI
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/MWTRB_CLI`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to Merriam Webster's Thesaurus CLI (MWTRB_CLI) gem! This gem has been created to allow you to search words in Merriam Webster's Thesaurus by use of their API. When searching a word, there are four different pieces of information that the CLI will display in relation to your word: Definiton, Synonyms, Antonyms, and Examples of word usage.
 
-TODO: Delete this and the text above, and describe your gem
+## Getting Started
+These instructions will 
 
-## Installation
+## Prerequisites
+Before using this Gem, be sure to register for a Thesaurus API key at: [dictionaryapi.com](https://dictionaryapi.com/register/index). 
 
-Add this line to your application's Gemfile:
+Then clone this repository with SSH to get started:
 
-```ruby
-gem 'MWTRB_CLI'
+```
+git clone git@github.com:MarcelRico/MWTRB_CLI.git
 ```
 
-And then execute:
+## Installing
+After cloning the repository navigate to the the following file: MWTRB_CLI/lib/API.rb. and then update the key value with your new api key that you received when registering at [dictionaryapi.com](https://dictionaryapi.com/register/index).
 
-    $ bundle
+```ruby
+@@api_key = "API_KEY"
+```
 
-Or install it yourself as:
+Next in terminal shell navigate to MWTRB_CLI/bin
 
-    $ gem install MWTRB_CLI
+```
+cd /MWTRB_CLI/bin
+```
 
-## Usage
+ run the following command to add execution permissions to the exec file
 
-TODO: Write usage instructions here
+```
+chmod +x exec
+```
 
-## Development
+Lastly to ensure that all is working correctly after you have added your API_Key in the API class,
+and added exectution permissions to the exec file, attempt to run the execution file in your terminal shell as shown below (Note: You must be in the bin folder, to run it this way):
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```
+./exec
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+If the program starts with the following screen, you have successfully installed, and are running MWTRB_CLI:
 
-## Contributing
+```
+Welcome to MWRB-CLI
+Note: All data supplied by Merriam Websters Thesaurus API
+==========================================================
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/'static-panel-4890'/MWTRB_CLI. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Please enter the word to lookup:
+```
 
-## License
+Authors
+Marcel Rico
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Code of Conduct
-
-Everyone interacting in the MWTRBCLI project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'static-panel-4890'/MWTRB_CLI/blob/master/CODE_OF_CONDUCT.md).
+Acknowledgments
+Kudos and a big thanks to the Michal Kalbarczyk for his amazing Colorize Gem which
+allowed me to add the awesome color scheme to this CLI project. Thanks Michal
