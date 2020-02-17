@@ -1,0 +1,7 @@
+require_relative 'API'
+require_relative 'MWTRB_CLI'
+require_relative 'Word'
+require 'pp'
+require 'colorize'
+require 'open-uri'
+require 'json'
