@@ -6,9 +6,12 @@ Welcome to Merriam Webster's Thesaurus CLI (MWTRB_CLI) gem! This gem has been cr
 These instructions will 
 
 ## Prerequisites
-Before using this Gem, be sure to register for a Thesaurus API key at: [dictionaryapi.com](https://dictionaryapi.com/register/index). 
+Before using this Gem, be sure to register for a Thesaurus API key at: [dictionaryapi.com](https://dictionaryapi.com/register/index).
 
-Then clone this repository with SSH to get started:
+<img src="Images/MWTRB1.png" width="700">
+<img src="Images/MWTRB2.png" width="700">
+
+Then one you have received your Thesaurus API key, clone this repository with SSH to get started:
 
 ```
 git clone git@github.com:MarcelRico/MWTRB_CLI.git
